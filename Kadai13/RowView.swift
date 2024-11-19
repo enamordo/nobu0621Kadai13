@@ -27,7 +27,7 @@ struct RowView: View {
                         .frame(width: 20)
                 }
 
-                Text(fruit.fruitName)
+                Text(fruit.name)
 
                 Spacer()
             }
@@ -37,5 +37,5 @@ struct RowView: View {
 }
 
 #Preview {
-    RowView(fruit: .init(fruitName: "orange", isChecked: true))
+    RowView(fruit: .init(name: "orange", isChecked: true))
 }

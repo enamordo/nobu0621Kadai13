@@ -9,13 +9,13 @@ import Foundation
 
 struct Fruit: Identifiable, Hashable {
     let id = UUID()
-    let fruitName: String
+    let name: String
     var isChecked: Bool
 }
 
 var fruitArray = [
-    Fruit(fruitName: "りんご", isChecked: false),
-    Fruit(fruitName: "みかん", isChecked: false),
-    Fruit(fruitName: "バナナ", isChecked: false),
-    Fruit(fruitName: "パイナップル", isChecked: false)
+    Fruit(name: "りんご", isChecked: false),
+    Fruit(name: "みかん", isChecked: true),
+    Fruit(name: "バナナ", isChecked: false),
+    Fruit(name: "パイナップル", isChecked: true)
 ]
